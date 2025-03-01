@@ -7,14 +7,6 @@ function App() {
       <header className="App-header">
         <h1>Welcome to Our Wedding Website</h1>
         <p>We are excited to celebrate our special day with you!</p>
-        <a
-          className="App-link"
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn more about our wedding
-        </a>
       </header>
     </div>
   );
