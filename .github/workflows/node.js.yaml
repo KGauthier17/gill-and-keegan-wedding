@@ -30,6 +30,9 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
 
+    - name: Add CNAME file
+      run: echo "gillandkeeganswedding.com" > ./build/CNAME
+
     - name: Deploy with gh-pages
       run: |
         git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
