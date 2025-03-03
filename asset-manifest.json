@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gill-and-keegan-wedding/static/css/main.c124b6f8.css",
+    "main.js": "/gill-and-keegan-wedding/static/js/main.3900d013.js",
+    "static/js/453.56f46472.chunk.js": "/gill-and-keegan-wedding/static/js/453.56f46472.chunk.js",
+    "index.html": "/gill-and-keegan-wedding/index.html",
+    "main.c124b6f8.css.map": "/gill-and-keegan-wedding/static/css/main.c124b6f8.css.map",
+    "main.3900d013.js.map": "/gill-and-keegan-wedding/static/js/main.3900d013.js.map",
+    "453.56f46472.chunk.js.map": "/gill-and-keegan-wedding/static/js/453.56f46472.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c124b6f8.css",
+    "static/js/main.3900d013.js"
+  ]
+}
