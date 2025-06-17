@@ -1,0 +1,39 @@
+.hero-section {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('../../../public/assets/images/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-content {
+  color: #fff;
+  text-align: center;
+  z-index: 10;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-family: serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-date {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  .hero-date {
+    font-size: 1.1rem;
+  }
+}

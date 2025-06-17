@@ -1,0 +1,123 @@
+/* ...existing code... */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: serif;
+  color: #d6336c;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.navbar-links a:hover {
+  color: #d6336c;
+}
+
+.navbar-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 1rem;
+  }
+  .navbar-brand {
+    flex: 1;
+    min-width: 0;
+    justify-content: center;
+  }
+  .navbar-toggle {
+    display: block;
+    z-index: 1001;
+  }
+  .navbar-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 1rem;
+    min-width: 170px;
+    max-width: 80vw;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.25rem;
+    gap: 1rem;
+    margin: 0;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px) scale(0.98);
+    transition: opacity 0.25s cubic-bezier(.4,0,.2,1), transform 0.25s cubic-bezier(.4,0,.2,1);
+    z-index: 1000;
+  }
+  .navbar-links.open {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0) scale(1);
+    display: flex;
+  }
+  .navbar-links li {
+    width: 100%;
+  }
+  .navbar-links a {
+    width: 100%;
+    display: block;
+    text-align: left;
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+    background: none;
+    color: #333;
+    font-family: serif;
+    font-weight: 500;
+  }
+  .navbar-links a:hover {
+    color: #d6336c;
+    background: none;
+  }
+}
