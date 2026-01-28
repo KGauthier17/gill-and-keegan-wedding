@@ -28,9 +28,9 @@ const storyEvents = [
     date: "2024",
     title: "The Proposal",
     description: 
-    "Keegan proposed to Gill at her favourite place in the world... The Cottage. \
-    Somehow keeping it a complete secret from her, he managed to get both his and her family there to surprise her. \
-    It was a perfect day.",
+      "Keegan proposed to Gill at her favourite place in the world... The Cottage. " +
+      "Somehow keeping it a complete secret from her, he managed to get both his and her family there to surprise her. " +
+      "It was a perfect day.",
     side: "right"
   },
 ];
