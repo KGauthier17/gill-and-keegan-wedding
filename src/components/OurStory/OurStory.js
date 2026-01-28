@@ -6,7 +6,7 @@ const storyEvents = [
     img: "/assets/images/our_story1.jpeg",
     date: "2018",
     title: "We Met at St.FX University",
-    description: "We met in college...",
+    description: "We met at a Halloween party where Gill was dressed as Pitbull... Yes, bald cap and all.",
     side: "left"
   },
   {
