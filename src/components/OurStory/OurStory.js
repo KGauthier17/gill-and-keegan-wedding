@@ -3,31 +3,34 @@ import "./OurStory.css";
 
 const storyEvents = [
   {
-    img: "/assets/images/background.jpeg",
+    img: "/assets/images/our_story1.jpeg",
     date: "2018",
-    title: "We Met",
+    title: "We Met at St.FX University",
     description: "We met in college...",
     side: "left"
   },
   {
-    img: "/assets/images/background.jpeg",
+    img: "/assets/images/our_story2.jpeg",
     date: "2019",
     title: "First Trip",
     description: "Our first trip together...",
     side: "right"
   },
   {
-    img: "/assets/images/background.jpeg",
+    img: "/assets/images/our_story3.jpeg",
     date: "2022",
     title: "We Moved In",
     description: "We moved into our first apartment together...",
     side: "left"
   },
   {
-    img: "/assets/images/background.jpeg",
+    img: "/assets/images/our_story4.jpeg",
     date: "2024",
     title: "The Proposal",
-    description: "Keegan proposed to Gill at her favourite place in the world... The Cottage. Somehow keeping it a complete secret from her, he managed to get both his and her family there to surprise her. It was a perfect day.",
+    description: 
+    "Keegan proposed to Gill at her favourite place in the world... The Cottage. \
+    Somehow keeping it a complete secret from her, he managed to get both his and her family there to surprise her. \
+    It was a perfect day.",
     side: "right"
   },
 ];

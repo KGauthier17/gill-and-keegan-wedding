@@ -20,13 +20,13 @@
   align-items: center;
   width: 100%;
   max-width: 700px;
+  position: relative;
 }
 
 .ourstory-row {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
   width: 100%;
   min-height: 180px;
   position: relative;
@@ -60,16 +60,6 @@
   object-fit: cover;
 }
 
-.ourstory-row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 180px;
-  position: relative;
-}
-
 .ourstory-row.row-reverse {
   flex-direction: row-reverse;
 }
@@ -86,16 +76,6 @@
   align-items: flex-start;
   position: relative;
   margin: 0 2rem;
-}
-
-.ourstory-bubble-text.left {
-  align-items: flex-end;
-  text-align: left;
-}
-
-.ourstory-bubble-text.right {
-  align-items: flex-start;
-  text-align: right;
 }
 
 .ourstory-date,
