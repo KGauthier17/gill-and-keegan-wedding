@@ -1,5 +1,3 @@
-/* ...existing code... */
-
 .navbar {
   position: fixed;
   top: 0;
@@ -23,9 +21,13 @@
 .navbar-brand a {
   font-size: 1.5rem;
   font-weight: bold;
-  font-family: serif;
-  color: #d6336c;
+  font-family: Calibri, 'Franklin Gothic Medium';
+  color: #338fd6;
   text-decoration: none;
+}
+
+.navbar-brand a:hover {
+  color: #d6336c;
 }
 
 .navbar-links {
@@ -37,11 +39,11 @@
 }
 
 .navbar-links a {
-  color: #333;
+  color: #338fd6;
   text-decoration: none;
   font-weight: 500;
-  font-family: inherit;
-  font-size: 1rem;
+  font-family: Calibri, 'Franklin Gothic Medium';
+  font-size: 1.3rem;
   transition: color 0.3s ease;
   background: none;
   border: none;
@@ -112,8 +114,8 @@
     padding: 0.5rem 0;
     font-size: 1.1rem;
     background: none;
-    color: #333;
-    font-family: serif;
+    color: #338fd6;
+    font-family: Calibri, 'Franklin Gothic Medium';
     font-weight: 500;
   }
   .navbar-links a:hover {

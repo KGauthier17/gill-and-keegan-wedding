@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #fff1f2;
+  background-color: #f1f8ff;
 }
 
 .ourstory-title {
@@ -85,7 +85,7 @@
 
 .ourstory-date {
   font-size: 1rem;
-  color: #ec4899;
+  color: #338fd6;
   font-weight: 600;
   margin-bottom: 0.25rem;
 }

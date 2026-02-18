@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./NavBar.css";
 
 const sections = [
@@ -12,9 +12,32 @@ const sections = [
 
 function Navbar() {
   const [open, setOpen] = useState(false);
+  const navbarRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (navbarRef.current && !navbarRef.current.contains(event.target)) {
+        setOpen(false);
+      }
+    };
+
+    const handleScroll = () => {
+      setOpen(false);
+    };
+
+    if (open) {
+      document.addEventListener("mousedown", handleClickOutside);
+      window.addEventListener("scroll", handleScroll);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [open]);
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" ref={navbarRef}>
       <div className="navbar-brand">
         <a href="#home">Gill & Keegan</a>
         <button
