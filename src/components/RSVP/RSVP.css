@@ -164,6 +164,21 @@
   border-color: #ec4899;
 }
 
+.rsvp-textarea {
+  padding: 0.875rem 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.rsvp-textarea:focus {
+  border-color: #ec4899;
+}
+
 .rsvp-radio-group {
   display: flex;
   flex-direction: column;

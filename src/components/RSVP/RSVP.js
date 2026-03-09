@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { ref, push } from "firebase/database";
 import { database } from "../../firebase";
 import "./RSVP.css";
@@ -8,10 +8,25 @@ function RSVP() {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
-    attending: ""
+    attending: "",
+    dietaryRestrictions: "",
+    songRequest: ""
   });
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
+
+  // Disable background scrolling when modal is open
+  useEffect(() => {
+    if (isModalOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [isModalOpen]);
 
   const handleChange = (e) => {
     setFormData({
@@ -36,11 +51,13 @@ function RSVP() {
         firstName: formData.firstName,
         lastName: formData.lastName,
         attending: formData.attending,
+        dietaryRestrictions: formData.dietaryRestrictions,
+        songRequest: formData.songRequest,
         timestamp: new Date().toISOString()
       });
 
       setSubmitted(true);
-      setFormData({ firstName: "", lastName: "", attending: "" });
+      setFormData({ firstName: "", lastName: "", attending: "", dietaryRestrictions: "", songRequest: "" });
       setTimeout(() => {
         setIsModalOpen(false);
         setSubmitted(false);
@@ -55,7 +72,7 @@ function RSVP() {
     setIsModalOpen(false);
     setSubmitted(false);
     setError("");
-    setFormData({ firstName: "", lastName: "", attending: "" });
+    setFormData({ firstName: "", lastName: "", attending: "", dietaryRestrictions: "", songRequest: "" });
   };
 
   return (
@@ -130,6 +147,24 @@ function RSVP() {
                       <span>Regretfully Declining</span>
                     </label>
                   </div>
+
+                  <textarea
+                    name="dietaryRestrictions"
+                    placeholder="Any dietary restrictions or food allergies? (Optional)"
+                    value={formData.dietaryRestrictions}
+                    onChange={handleChange}
+                    className="rsvp-textarea"
+                    rows="3"
+                  />
+
+                  <textarea
+                    name="songRequest"
+                    placeholder="Got a song you'd love to hear during the reception? (Optional)"
+                    value={formData.songRequest}
+                    onChange={handleChange}
+                    className="rsvp-textarea"
+                    rows="2"
+                  />
 
                   {error && <p className="rsvp-error">{error}</p>}
                   
