@@ -119,6 +119,10 @@
 }
 
 @media (max-width: 700px) {
+  .ourstory-section {
+     padding-bottom: 70px;
+  }
+
   .ourstory-row,
   .ourstory-row.row-reverse {
     flex-direction: column !important;
