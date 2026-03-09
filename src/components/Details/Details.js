@@ -26,11 +26,11 @@ function Details() {
         <h2 className="details-title">Wedding Details</h2>
 
         <p className="details-text">
-          Our wedding will take place at <strong>Bull Point Estate</strong>, <a href={mapsUrl} target="_blank" rel="noopener noreferrer">1203 SW Port Mouton Rd, Port Mouton, Nova Scotia</a>.
+          The ceremony will be on <time dateTime="2026-07-23"><strong>July 23rd, 2026</strong></time> and will begin promptly at <strong>3:00 PM</strong>. We kindly ask guests to arrive by <strong>2:30 PM</strong> to allow time to find seating and get settled before we begin.
         </p>
 
         <p className="details-text">
-          The ceremony will begin promptly at <strong>3:00 PM</strong>. We kindly ask guests to arrive by <strong>2:30 PM</strong> to allow time to find seating and get settled before we begin.
+          Our wedding will take place at <strong>Bull Point Estate</strong>, <a href={mapsUrl} target="_blank" rel="noopener noreferrer">1203 SW Port Mouton Rd, Port Mouton, Nova Scotia</a>.
         </p>
 
         <p className="details-text">
