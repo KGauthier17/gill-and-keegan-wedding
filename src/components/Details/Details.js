@@ -1,6 +1,10 @@
 import React from "react";
 import "./Details.css";
 
+const mapsUrl = /iPad|iPhone|iPod/.test(navigator.userAgent)
+  ? "https://maps.apple.com/?q=1203+SW+Port+Mouton+Rd,+Port+Mouton,+NS"
+  : "https://www.google.com/maps/dir//1203+SW+Port+Mouton+Rd,+Port+Mouton,+NS+B1P+2B4/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4b56d9558cd70857:0xd5477467ceb058fd?sa=X&ved=1t:707&ictx=111";
+
 function Details() {
   return (
     <div className="details-container">
@@ -22,7 +26,7 @@ function Details() {
         <h2 className="details-title">Wedding Details</h2>
 
         <p className="details-text">
-          Our wedding will take place at <strong>Bull Point Estate</strong>, 1203 SW Port Mouton Rd, Port Mouton, Nova Scotia.
+          Our wedding will take place at <strong>Bull Point Estate</strong>, <a href={mapsUrl} target="_blank" rel="noopener noreferrer">1203 SW Port Mouton Rd, Port Mouton, Nova Scotia</a>.
         </p>
 
         <p className="details-text">
