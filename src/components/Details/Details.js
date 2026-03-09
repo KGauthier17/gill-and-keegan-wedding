@@ -6,15 +6,15 @@ function Details() {
     <div className="details-container">
       {/* Scattered polaroid photos */}
       <div className="polaroid polaroid-1">
-        <img src="/assets/images/polaroid/photo5.jpeg" alt="Memory" />
+        <img src="/assets/images/polaroids/photo5.jpeg" alt="Memory" />
         <p className="polaroid-caption">Us ♥</p>
       </div>
       <div className="polaroid polaroid-2">
-        <img src="/assets/images/polaroid/photo6.jpeg" alt="Memory" />
+        <img src="/assets/images/polaroids/photo6.jpeg" alt="Memory" />
         <p className="polaroid-caption">Cliffs of Moher</p>
       </div>
       <div className="polaroid polaroid-3">
-        <img src="/assets/images/polaroid/photo7.jpeg" alt="Memory" />
+        <img src="/assets/images/polaroids/photo7.jpeg" alt="Memory" />
         <p className="polaroid-caption">To Love</p>
       </div>
 

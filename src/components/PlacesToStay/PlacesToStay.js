@@ -6,19 +6,19 @@ function PlacesToStay() {
     <div className="places-container">
       {/* Scattered polaroid photos */}
       <div className="polaroid polaroid-1">
-        <img src="/assets/images/polaroid/photo10.jpeg" alt="Memory" />
+        <img src="/assets/images/polaroids/photo10.jpeg" alt="Memory" />
         <p className="polaroid-caption">Nashville</p>
       </div>
       <div className="polaroid polaroid-2">
-        <img src="/assets/images/polaroid/photo11.jpeg" alt="Memory" />
+        <img src="/assets/images/polaroids/photo11.jpeg" alt="Memory" />
         <p className="polaroid-caption">Sugarloaf</p>
       </div>
       <div className="polaroid polaroid-3">
-        <img src="/assets/images/polaroid/photo12.jpeg" alt="Memory" />
+        <img src="/assets/images/polaroids/photo12.jpeg" alt="Memory" />
         <p className="polaroid-caption">Nashville</p>
       </div>
       <div className="polaroid polaroid-4">
-        <img src="/assets/images/polaroid/photo13.jpeg" alt="Memory" />
+        <img src="/assets/images/polaroids/photo13.jpeg" alt="Memory" />
         <p className="polaroid-caption">Coldplay</p>
       </div>
 

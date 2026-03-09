@@ -79,15 +79,15 @@ function RSVP() {
     <div className="rsvp-container">
       {/* Scattered polaroid photos */}
       <div className="polaroid polaroid-1">
-        <img src="/assets/images/polaroid/photo14.jpeg" alt="Memory" />
+        <img src="/assets/images/polaroids/photo14.jpeg" alt="Memory" />
         <p className="polaroid-caption">The Proposal</p>
       </div>
       <div className="polaroid polaroid-2">
-        <img src="/assets/images/polaroid/photo15.jpeg" alt="Memory" />
+        <img src="/assets/images/polaroids/photo15.jpeg" alt="Memory" />
         <p className="polaroid-caption">Looking Spiffy</p>
       </div>
       <div className="polaroid polaroid-3">
-        <img src="/assets/images/polaroid/photo16.jpeg" alt="Memory" />
+        <img src="/assets/images/polaroids/photo16.jpeg" alt="Memory" />
         <p className="polaroid-caption">Christmas 2025</p>
       </div>
 

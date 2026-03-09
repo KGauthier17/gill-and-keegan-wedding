@@ -6,19 +6,19 @@ function Message() {
     <div className="message-container">
       {/* Scattered polaroid photos */}
       <div className="polaroid polaroid-1">
-        <img src="/assets/images/polaroid/photo1.jpeg" alt="Memory" />
+        <img src="/assets/images/polaroids/photo1.jpeg" alt="Memory" />
         <p className="polaroid-caption">Always</p>
       </div>
       <div className="polaroid polaroid-2">
-        <img src="/assets/images/polaroid/photo2.jpeg" alt="Memory" />
+        <img src="/assets/images/polaroids/photo2.jpeg" alt="Memory" />
         <p className="polaroid-caption">Forever</p>
       </div>
       <div className="polaroid polaroid-3">
-        <img src="/assets/images/polaroid/photo3.jpeg" alt="Memory" />
+        <img src="/assets/images/polaroids/photo3.jpeg" alt="Memory" />
         <p className="polaroid-caption">Love You</p>
       </div>
       <div className="polaroid polaroid-4">
-        <img src="/assets/images/polaroid/photo4.jpeg" alt="Memory" />
+        <img src="/assets/images/polaroids/photo4.jpeg" alt="Memory" />
         <p className="polaroid-caption">Cheers!</p>
       </div>
 
