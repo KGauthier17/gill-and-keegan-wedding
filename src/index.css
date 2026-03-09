@@ -4,6 +4,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  max-width: 100%;
 }
 
 code {
@@ -13,4 +14,10 @@ code {
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  max-width: 100%;
+}
+
+#root {
+  overflow-x: hidden;
+  max-width: 100%;
 }
