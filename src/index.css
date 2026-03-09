@@ -3,6 +3,7 @@ body {
   font-family: Calibri, 'Franklin Gothic Medium';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
@@ -11,4 +12,5 @@ code {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
