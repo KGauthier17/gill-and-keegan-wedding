@@ -33,7 +33,7 @@ function HeroSection() {
         />
       ))}
       <div className="hero-content">
-        <h1 className="hero-title">Gill & Keegan</h1>
+        <h1 className="hero-title">Gillian & Keegan</h1>
         <p className="hero-date">July 23rd, 2026</p>
         <CountdownTimer />
       </div>

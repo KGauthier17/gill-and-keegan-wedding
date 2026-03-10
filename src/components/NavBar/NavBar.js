@@ -39,7 +39,7 @@ function Navbar() {
   return (
     <nav className="navbar" ref={navbarRef}>
       <div className="navbar-brand">
-        <a href="#home">Gill & Keegan</a>
+        <a href="#home">Gillian & Keegan</a>
         <button
           className="navbar-toggle"
           aria-label="Toggle navigation"
