@@ -105,7 +105,7 @@ function Details() {
       </div>
       <div className="polaroid polaroid-2">
         <img src="/assets/images/polaroids/photo6.jpeg" alt="Memory" />
-        <p className="polaroid-caption">Cliffs of Moher</p>
+        <p className="polaroid-caption">Ireland</p>
       </div>
       <div className="polaroid polaroid-3">
         <img src="/assets/images/polaroids/photo7.jpeg" alt="Memory" />

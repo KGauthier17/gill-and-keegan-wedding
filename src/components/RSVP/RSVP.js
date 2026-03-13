@@ -88,7 +88,7 @@ function RSVP() {
       </div>
       <div className="polaroid polaroid-3">
         <img src="/assets/images/polaroids/photo16.jpeg" alt="Memory" />
-        <p className="polaroid-caption">Christmas 2025</p>
+        <p className="polaroid-caption">Christmas</p>
       </div>
 
       <div>
