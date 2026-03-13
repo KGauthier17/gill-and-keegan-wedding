@@ -71,12 +71,12 @@ const sections = [
     title: "🎁 Gifts",
     content: (
       <p>
-        While we do not have a traditional registry, for those who have asked about gifts, we would be grateful for contributions toward our future together.
+        While we do not have a traditional registry, for those who have asked about gifts, we would be grateful for contributions toward our honeymoon. All contributions can be made via cash or e-transfer to <a href="mailto:keegan.gauthier@icloud.com">keegan.gauthier@icloud.com</a> or <a href="mailto:gmsheppa@gmail.com">gmsheppa@gmail.com</a>.
       </p>
     ),
   },
   {
-    title: "👥 Guest List",
+    title: "👥 Guests",
     content: (
       <p>
         Due to venue capacity and planning considerations, we're only able to accommodate the guests listed on your invitation, so we kindly ask that guests attend only if they are named on the RSVP.
