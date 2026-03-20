@@ -55,7 +55,7 @@ const sections = [
     title: "🍺 Bar",
     content: (
       <p>
-        The reception bar will be a <strong>toonie bar</strong>, so please remember to bring some cash and change.
+        The reception bar will be a <strong>toonie bar</strong>, so please remember to bring some cash and change. The venue does <strong>accept card</strong> so that is also an option, but we wanted to offer a cash option for those who prefer it. The bar will be open from the start of cocktail hour until the end of the reception.
       </p>
     ),
   },
