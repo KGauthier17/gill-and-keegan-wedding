@@ -26,7 +26,7 @@ const sections = [
     title: "👗 Dress Code",
     content: (
       <p>
-        The dress code is <strong>Beach Formal</strong>. Think summer suits, dresses, and dressy attire that's comfortable for a coastal setting.
+        The dress code is <strong>Beach Formal</strong>. Think summer suits, dresses, and dressy attire that's comfortable for a coastal setting. Our bridesmaids will be in light blue, so we'd appreciate if other guests steer clear of that colour, thank you! For some inspiration, check out our <a href="https://pin.it/10A6HevER" target="_blank" rel="noopener noreferrer">Pinterest Board here</a>.
       </p>
     ),
   },
@@ -44,10 +44,10 @@ const sections = [
     ),
   },
   {
-    title: "🚌 Shuttle Service",
+    title: "🚌 Shuttle Service & Parking",
     content: (
       <p>
-        A shuttle service will be available for guests staying nearby. Shuttles will begin running at <strong>9:00 PM</strong> and make trips every hour, with the final trip departing at <strong>12:00 AM</strong>. The shuttle will stop at <strong>The Best Western in Liverpool</strong> and <strong>The Quarterdeck Resort</strong>.
+        A shuttle service will be available for guests staying nearby. Shuttles will begin running at <strong>9:00 PM</strong> and make trips every hour, with the final trip departing at <strong>12:00 AM</strong>. The shuttle will stop at <strong>The Best Western in Liverpool</strong> and <strong>The Quarterdeck Resort</strong>. There are two lots along the gravel road on the way to the venue. The walk can be a bit tricky in heels, so feel free to bring a more comfortable pair of shoes for getting there! We kindly ask that guests use the first lot first, leaving the closer second lot for anyone who may need easier access.
       </p>
     ),
   },
