@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import HeroSection from "./components/HeroSection/HeroSection";
 import Message from "./components/Message/Message";
 import OurStory from "./components/OurStory/OurStory";
@@ -7,8 +7,17 @@ import Ceremony from "./components/Ceremony/Ceremony";
 import RSVP from "./components/RSVP/RSVP";
 import PlacesToStay from "./components/PlacesToStay/PlacesToStay";
 import Navbar from "./components/NavBar/NavBar";
+import Login from "./components/Login/Login";
 
 function App() {
+  const [isAuthenticated, setIsAuthenticated] = useState(
+    sessionStorage.getItem("weddingAuth") === "true"
+  );
+
+  if (!isAuthenticated) {
+    return <Login onLogin={() => setIsAuthenticated(true)} />;
+  }
+
   return (
     <div className="scroll-smooth">
       <Navbar />
