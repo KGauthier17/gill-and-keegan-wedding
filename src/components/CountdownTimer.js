@@ -4,7 +4,6 @@ function CountdownTimer() {
 
   const [daysLeft, setDaysLeft] = useState(0);
 
-
   useEffect(() => {
     const targetDate = new Date('2026-07-23');
     const updateCountdown = () => {
