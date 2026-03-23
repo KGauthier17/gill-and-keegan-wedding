@@ -30,7 +30,7 @@ const GUEST_LIST = [
   "Dani Violette", "Julia Docherty", "Brenda Keyes", "Paul Keyes",
   "David Keyes", "Beatrice Bromley", "Andrew Keyes", "Molly O'Brien",
   "Cameron Keyes", "Martha Tait", "Anna Keyes", "Brynn Kerr", "Kayden Rice",
-  "Jack Long", "Will Cromwell", "Kaelin Barry", "Morgan Robinson", "Emma Keshen",
+  "Jack Long", "Will Cromwell", "Kaelin Barry", "Morgan Robinson", "Emma Keshen", "Jack Aucoin",
 ];
 
 function RSVP() {
