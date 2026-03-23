@@ -300,6 +300,146 @@
   margin-top: 0.5rem;
 }
 
+/* Autocomplete */
+.rsvp-autocomplete-wrapper {
+  position: relative;
+}
+
+.rsvp-input-selected {
+  background-color: #fdf2f8;
+  border-color: #ec4899 !important;
+  color: #1f2937;
+  font-weight: 500;
+  cursor: default;
+}
+
+.rsvp-clear-name {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  color: #9ca3af;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+  transition: color 0.2s;
+}
+
+.rsvp-clear-name:hover {
+  color: #4b5563;
+}
+
+.rsvp-suggestions {
+  position: fixed;
+  background: #fff;
+  border: 2px solid #ec4899;
+  border-radius: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0.25rem 0;
+  z-index: 9999;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.rsvp-suggestion-item {
+  padding: 0.65rem 1rem;
+  font-size: 0.95rem;
+  color: #1f2937;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.rsvp-suggestion-item:hover {
+  background-color: #fdf2f8;
+  color: #db2777;
+}
+
+.rsvp-checking {
+  font-size: 0.9rem;
+  color: #9ca3af;
+  text-align: center;
+  margin: 0;
+}
+
+.rsvp-already-submitted {
+  background-color: #f0fdf4;
+  border: 1.5px solid #86efac;
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  text-align: center;
+  color: #166534;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.rsvp-already-subtext {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.85rem;
+  color: #15803d;
+}
+
+.rsvp-toast-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.4s ease;
+}
+
+.rsvp-toast-visible {
+  opacity: 1;
+}
+
+.rsvp-toast-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.rsvp-toast-card {
+  background-color: #f0fdf4;
+  border: 1.5px solid #86efac;
+  border-radius: 0.75rem;
+  padding: 1.75rem 2rem 1.5rem 2rem;
+  max-width: 340px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.rsvp-toast-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #86efac;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+  transition: color 0.2s;
+}
+
+.rsvp-toast-close:hover {
+  color: #166534;
+}
+
+.rsvp-toast-message {
+  color: #166534;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
 .rsvp-submit-button:hover {
   background-color: #db2777;
   transform: translateY(-1px);

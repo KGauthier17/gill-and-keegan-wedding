@@ -7,6 +7,14 @@ const mapsUrl = /iPad|iPhone|iPod/.test(navigator.userAgent)
 
 const sections = [
   {
+    title: "🎉 Welcome Party",
+    content: (
+      <p>
+        The night before the wedding, on <time dateTime="2026-07-22"><strong>Wednesday, July 22nd</strong></time>, we'll be hosting an informal welcome party at the venue starting at <strong>6:00 PM</strong>. It'll be a relaxed BBQ with light drinks — a great chance to meet other guests, get comfortable at the venue, and kick off the celebrations. Attendance is completely optional, but we'd love to see you there!
+      </p>
+    ),
+  },
+  {
     title: "📅 Date & Time",
     content: (
       <p>
