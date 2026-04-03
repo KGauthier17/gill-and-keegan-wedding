@@ -5,10 +5,10 @@ import "./RSVP.css";
 
 const GUEST_LIST = [
   "Keegan Gauthier", "Gillian Sheppard","Kerry Sheppard", "Neveen Sheppard", "Darren Gauthier",
-  "Janine Mcinnnis", "Karen Gauthier", "Jeff Bannet", "Alexander Sheppard",
+  "Janine Mcinnnis", "Karen Gauthier", "Jeff Banet", "Alexander Sheppard",
   "Brooke Jennings", "Riley Gauthier", "Duggan Gauthier", "Mollie Holt",
   "Maddie Dunham", "Alison Tedford", "Hannah Gillespie", "Kyle Brown",
-  "Coady MacKillop", "Declan Murphy", "Rhys Mackenzie", "Nadia Fam",
+  "Coady MacKillop", "Declan Murphy", "Rhys Mackenzie", "Nadia Fam", "Cameron Bruce",
   "Elizabeth Sheppard", "Donald MacKenzie", "Nancy Gilmour", "Andrew Gilmour",
   "Connor Gilmour", "Hanny Fam", "Sherra Fam", "Avery Fam", "Odette Viel",
   "Amir Guindi", "Adeena Guindi", "Evan Rose", "Sarah Miller", "Lauren Rose",
