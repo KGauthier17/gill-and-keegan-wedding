@@ -27,7 +27,7 @@ const GUEST_LIST = [
   "Austin Woodland", "Kylie MacNeil", "Colin Marinelli", "Katy Berry",
   "Lindsey Ripley", "Maddy Leduc", "Adam Patterson", "Peter Docherty",
   "Mary Catherine MacSween", "Sean Docherty", "Hannah Deal", "Colin Docherty",
-  "Dani Violette", "Julia Docherty", "Brenda Keyes", "Paul Keyes",
+  "Dani Violette", "Julia Docherty", "Brenda Keyes", "Paul Keyes", "Joseph Guindi",
   "David Keyes", "Beatrice Bromley", "Andrew Keyes", "Molly O'Brien", "Luke Bainfield",
   "Cameron Keyes", "Martha Tait", "Anna Keyes", "Brynn Kerr", "Kayden Rice",
   "Jack Long", "Will Cromwell", "Kaelin Barry", "Morgan Robinson", "Emma Keshen", "Jack Aucoin", "Juliette Côté"
